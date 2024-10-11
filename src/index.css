@@ -12,3 +12,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.bg-hero-pattern {
+  background-image: url('./assets/image.png');
+  background-size: cover;
+  background-position: center;
+}
+
+
+/* Optional CSS for enhanced transitions */
+.group:hover .w-8 {
+  transform: scale(1.1) rotate(6deg);
+}
+
+.bg-gradient-to-r {
+  transition: background 0.3s ease;
+}
+
+.blinking-cursor {
+  display: inline-block;
+  width: 1px;
+  background-color: white;
+  animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
