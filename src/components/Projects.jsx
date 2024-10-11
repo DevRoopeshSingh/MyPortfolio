@@ -23,7 +23,7 @@ const projects = [
     title: 'School Pay App',
     description: 'A secure payment platform designed for schools, enabling parents to easily manage and track tuition fees, extracurricular payments, and other school expenses in a convenient and user-friendly way.',
     image: '/icons/school-pay.png',
-    link: ''
+    link: '/'
   },
 ];
 
