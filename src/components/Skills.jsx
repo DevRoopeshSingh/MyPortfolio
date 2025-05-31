@@ -2,17 +2,25 @@ import React from 'react';
 
 const skills = [
   { name: 'React JS', icon: '/icons/react-colored.svg', level: 'Advanced' },
+  { name: 'Next.js', icon: '/icons/nextjs-colored.svg', level: 'Advanced' },
+  { name: 'TypeScript', icon: '/icons/typescript-colored.svg', level: 'Advanced' },
+  { name: 'Redux', icon: '/icons/redux-colored.svg', level: 'Advanced' },
+  { name: 'React Query', icon: '/icons/react-query-colored.svg', level: 'Advanced' },
   { name: 'Node JS', icon: '/icons/nodejs-colored.svg', level: 'Intermediate' },
-  { name: 'MongoDB', icon: '/icons/mongodb-colored.svg', level: 'Intermediate' },
-  { name: 'Docker', icon: '/icons/docker-colored.svg', level: 'Advanced' },
-  { name: 'AWS', icon: '/icons/aws-colored.svg', level: 'Advanced' },
-  { name: 'Core Java', icon: '/icons/java-colored.svg', level: 'Advanced' },
-  { name: 'Spring Boot', icon: '/icons/spring-boot-colored.svg', level: 'Intermediate' },
+  { name: 'Express.js', icon: '/icons/expressjs-colored.svg', level: 'Intermediate' },
+  { name: 'GraphQL', icon: '/icons/graphql-colored.svg', level: 'Intermediate' },
+  { name: 'UI Architecture', icon: '/icons/architecture-colored.svg', level: 'Advanced' },
+  { name: 'Jest', icon: '/icons/jest-colored.svg', level: 'Advanced' },
+  { name: 'Cypress', icon: '/icons/cypress-colored.svg', level: 'Intermediate' },
+  { name: 'Tailwind CSS', icon: '/icons/tailwind-colored.svg', level: 'Advanced' },
+  { name: 'Ant Design', icon: '/icons/antd-colored.svg', level: 'Advanced' },
+  { name: 'Material UI', icon: '/icons/material-ui-colored.svg', level: 'Advanced' },
+  { name: 'Docker', icon: '/icons/docker-colored.svg', level: 'Intermediate' },
+  { name: 'AWS', icon: '/icons/aws-colored.svg', level: 'Intermediate' },
   { name: 'JavaScript', icon: '/icons/javascript-colored.svg', level: 'Advanced' },
-  { name: 'TypeScript', icon: '/icons/typescript-colored.svg', level: 'Intermediate' },
   { name: 'HTML5', icon: '/icons/html5-colored.svg', level: 'Advanced' },
   { name: 'CSS3', icon: '/icons/css3-colored.svg', level: 'Advanced' },
-  { name: 'Tailwind CSS', icon: '/icons/tailwind-colored.svg', level: 'Advanced' },
+  { name: 'Performance Opt', icon: '/icons/performance-colored.svg', level: 'Advanced' },
 ];
 
 const Skills = () => (
