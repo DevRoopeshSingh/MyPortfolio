@@ -1,0 +1,11 @@
+dist/
+node_modules/
+build/
+coverage/
+*.min.js
+*.min.css
+public/
+.vscode/
+.idea/
+*.log
+.DS_Store

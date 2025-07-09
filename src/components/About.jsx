@@ -26,6 +26,7 @@ const About = () => {
                   src="/profile-about.jpg" 
                   alt="Roopesh Singh" 
                   className="relative z-10 rounded-lg w-full h-auto object-cover shadow-md"
+                  loading="lazy"
                   onError={(e) => {e.target.onerror = null; e.target.src = "/icons/profile-placeholder.svg"}}
                 />
               </div>

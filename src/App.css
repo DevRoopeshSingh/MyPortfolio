@@ -7,19 +7,20 @@ html {
 }
 
 body {
-    @apply text-lg
+    @apply text-lg;
 }
 
+/* Legacy styles - to be removed after component updates */
 .projects img {
     width: 100%;
 }
 
-/* color */
+/* Custom color palette */
 .bg-primary {
     background: #0F172A;
 }
 
-.bg-secondery {
+.bg-secondary {
     background: #1E293B;
 }
 
@@ -31,18 +32,16 @@ body {
     color: #7477FF;
 }
 
-
+/* Navigation styles */
 nav li a {
-    @apply px-4 py-5 text-lg;
+    @apply px-4 py-5 text-lg transition-colors duration-200;
 }
 
 nav li a:hover {
     color: #7477FF;
 }
 
+/* Mobile navigation */
 .mobile-nav {
     @apply block md:hidden fixed top-10 py-2 w-full h-full bg-gray-900 duration-500;
 }
-
-
-

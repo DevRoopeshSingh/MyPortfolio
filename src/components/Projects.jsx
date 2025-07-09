@@ -94,6 +94,7 @@ const Projects = () => {
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   src={project.image}
                   alt={project.title}
+                  loading="lazy"
                   onError={(e) => {e.target.onerror = null; e.target.src = "/icons/project-placeholder.svg"}}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -174,6 +175,7 @@ const Projects = () => {
                     className="w-full h-full object-cover"
                     src={activeProject.image}
                     alt={activeProject.title}
+                    loading="lazy"
                     onError={(e) => {e.target.onerror = null; e.target.src = "/icons/project-placeholder.svg"}}
                   />
                 </div>

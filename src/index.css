@@ -33,7 +33,7 @@ code {
   color: #f7fafc;
 }
 
-/* Optional CSS for enhanced transitions */
+/* Enhanced transitions for interactive elements */
 .group:hover .w-8 {
   transform: scale(1.1) rotate(6deg);
 }
